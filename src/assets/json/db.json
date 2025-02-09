@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone",
+      "description": "Latest Android smartphone with 128GB storage",
+      "category": "Electronics",
+      "price": 699,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Wireless Headphones",
+      "description": "Noise-canceling over-ear headphones",
+      "category": "Electronics",
+      "price": 199,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "T-Shirt",
+      "description": "Cotton t-shirt with a round neck",
+      "category": "Clothing",
+      "price": 29,
+      "status": "active"
+    },
+    {
+      "name": "The Alchemist",
+      "description": "Inspirational book by Paulo Coelho",
+      "price": 150,
+      "category": "Books",
+      "status": "active",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "Sofa Set",
+      "description": "Comfortable 3-seater sofa for home",
+      "category": "Home",
+      "price": 1200,
+      "status": "inactive"
+    },
+    {
+      "id": "6",
+      "name": "Gaming Laptop",
+      "description": "Powerful laptop with RTX 4070 GPU",
+      "category": "Electronics",
+      "price": 1999,
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "name": "Running Shoes",
+      "description": "Breathable and lightweight running shoes",
+      "category": "Clothing",
+      "price": 89,
+      "status": "active"
+    },
+    {
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass",
+      "price": 590,
+      "category": "Electronics",
+      "status": "inactive",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "name": "Cookware Set",
+      "description": "Non-stick cookware set for daily cooking",
+      "category": "Home",
+      "price": 149,
+      "status": "active"
+    },
+    {
+      "id": "10",
+      "name": "Study Desk",
+      "description": "Minimalist wooden study desk",
+      "category": "Home",
+      "price": 250,
+      "status": "active"
+    },
+    {
+      "id": "ade8",
+      "name": "Treadmill",
+      "description": "Electric treadmill for home workouts",
+      "price": 599,
+      "category": "Sports & Fitness",
+      "status": "active"
+    }
+  ]
+}

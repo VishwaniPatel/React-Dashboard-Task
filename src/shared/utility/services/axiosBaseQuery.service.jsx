@@ -1,7 +1,7 @@
 import axios from 'axios'
-  
+
 export const axiosBaseQuery =
-    ({ baseUrl } = { baseUrl: '' }) =>
+  ({ baseUrl } = { baseUrl: '' }) =>
     async ({ url, method, data, params, headers }) => {
       try {
         const result = await axios({

@@ -21,9 +21,19 @@ export const theme = createTheme({
 });
 export const resolver = () => ({
   variables: {
-    '--mantine-font-family-headings': "'Inter', sans-serif",
-    '--mantine-font-family': "'Inter', sans-serif",
+   '--mantine-font-family-headings': "'Poppins', sans-serif",
+    '--mantine-font-family': "'Roboto', sans-serif",
   },
-  dark: {},
-  light: {},
+  dark: {
+    '--mantine-color-body': '#1A1B1E',
+    '--mantine-color-text': '#FFFFFF',
+    '--mantine-color-primary': '#3575d4',
+    '--mantine-color-secondary': '#5b8eda',
+  },
+  light: {
+    '--mantine-color-body': '#FFFFFF',
+    '--mantine-color-text': '#1A1B1E',
+    '--mantine-color-primary': '#2560b6',
+    '--mantine-color-secondary': '#80a8e4',
+  },
 });
