@@ -1,10 +1,33 @@
-# React + Vite
+# React Dashboard Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Setup
 
-Currently, two official plugins are available:
+### 1. Clone the Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Dashboard-Task
-# React-Dashboard-Task
+git clone -b develop https://github.com/VishwaniPatel/React-Dashboard-Task.git
+cd React-Dashboard-Task
+
+
+### 2. Install Dependencies
+
+Navigate to the project directory and install the required dependencies:
+
+npm install
+
+
+### 3. Start JSON Server
+The project uses `json-server` to serve mock data from `assets/json/db.json`.
+
+Run the following command to start the JSON server:
+
+npx json-server --watch assets/json/db.json --port 3000
+
+
+### 4. Start the Development Server
+
+npm run dev
+
+
+The app should now be running at `http://localhost:5173/`.
+
+
